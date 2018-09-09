@@ -1,0 +1,56 @@
+Fall 2014
+CRN 23159 CISB 101 003 Carpenter Busi Info Tech 
+CRN 24970 CISB 205 003 Snyder Adv Bus Software 
+CRN 23559 CISB 210 001 Pumphrey Fund of Info Sys 
+CRN 24808 CISB 210 005 Pumphrey Fund of Inof Sys 
+CRN 24972 CISB 210 006 Carpenter Fund of Info Sys 
+CRN 25601 CISB 310 001 Pumphrey Enterprise Architecture 	
+CRN 23658 CISB 331 001 Pumphrey Adv Business Programming 
+
+INSERT INTO Course
+VALUES (101, 'Business Information Technology', 3),
+		(205, 'Advanced Business Software', 3),
+		(210, 'Fundamentals of Information Systems', 3),
+		(331, 'Advanced Business Programming', 3),
+		(206, 'Intro to Business App Programming', 3),
+		(410, 'Project Management', 3),
+		(471, 'Advanced Information Systems', 3),
+		(495, 'Independent Study', 3),
+		(442, 'Systems Analysis and Design', 3),
+		(451, 'Database Administration', 3),
+		(505, 'Advanced Project Management', 3);
+
+UPDATE Course
+SET Course_Name = 'Enterprise System Architecture'
+WHERE CourseID = 310;	
+
+Spring 2015
+CRN 45563 CISB 206 001 Intro to Business App Programming
+CRN 44858 CISB 210 005 Fund of Info Sys
+CRN 43010 CISB 471 001 Adv Info Sys
+
+Fall 2015
+CRN 27363 CISB 241 001 Intro to Busi Analysis 
+CRN 28157 CISB 310 001 Enterprise Architecture
+CRN 26637 CISB 331 001 Adv Bus Programming
+CRN 28653 CISB 495 001 Indp Study
+
+Spring 2016
+CRN 43108 CISB 206 001 Intro to Business App Programming
+CRN 41010 CISB 471 001 Advanced Info Sys
+
+Jeffery Mills Andrew Harbert Jo Dorman Michael Cunningham Donald Carpenter Steven Metheny 
+
+Fall 2016
+CRN 21939 CISB 310 001 Enterprise Architecture
+CRN 20615 CISB 331 Advanced Business Programming
+
+Spring 2017
+CRN 45807 CISB 206 001 Intro to Business App Programming
+CRN 44310 CISB 442 001 Sys Analysis and Design
+CRN 44011 CISB 471 001 Advanced Info Sys
+
+Fall 2017
+CRN 25377 CISB 410 001 Project Management
+CRN 24356 CISB 451 001 Database Administration
+CRN 25517 CISB 505 001 Advanced Project Management
